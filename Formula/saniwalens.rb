@@ -2,27 +2,27 @@
 class Saniwalens < Formula
   desc "A lens onto your coding-agent usage"
   homepage "https://github.com/armaniacs/saniwalens"
-  version "0.6.3"
+  version "0.6.4"
 
   on_macos do
     on_arm do
-      url "https://github.com/armaniacs/saniwalens/releases/download/v0.6.3/saniwalens-v0.6.3-aarch64-apple-darwin.tar.gz"
-      sha256 "360c79240b2661a5145e11ed4734b52e37a811e15fb7335245488b562b4599ae"
+      url "https://github.com/armaniacs/saniwalens/releases/download/v0.6.4/saniwalens-v0.6.4-aarch64-apple-darwin.tar.gz"
+      sha256 "91820a36f92a5c8f1c6c6c5b567fb87656df29b38bba6aea77347eebf4121dd1"
     end
     on_intel do
-      url "https://github.com/armaniacs/saniwalens/releases/download/v0.6.3/saniwalens-v0.6.3-x86_64-apple-darwin.tar.gz"
-      sha256 "e17583f7ec10af0cd5ebe30a0d56c518dd53abace88586becf57fb474bf18709"
+      url "https://github.com/armaniacs/saniwalens/releases/download/v0.6.4/saniwalens-v0.6.4-x86_64-apple-darwin.tar.gz"
+      sha256 "49fe0c1e90731ef38981a58a8ea175c079056547445dfe1d2068cb332d3dec1b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/armaniacs/saniwalens/releases/download/v0.6.3/saniwalens-v0.6.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "561352169eccfb0399614e99c9e14b35d06152e04f3e619d0dbc8ce73e0e6fce"
+      url "https://github.com/armaniacs/saniwalens/releases/download/v0.6.4/saniwalens-v0.6.4-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "790ac57474ade6b40b1d662ed24a79392ea15f00857dee18309f305803ccc931"
     end
     on_intel do
-      url "https://github.com/armaniacs/saniwalens/releases/download/v0.6.3/saniwalens-v0.6.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5f8cf9d9dc6703d1bbed039d5cfb845096310d20e1c6e6ec7ec371a7097b8734"
+      url "https://github.com/armaniacs/saniwalens/releases/download/v0.6.4/saniwalens-v0.6.4-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e32398537f7fee712315faee217bb5ca4f9294fc0dd5287b4586a0b0da948a43"
     end
   end
 
